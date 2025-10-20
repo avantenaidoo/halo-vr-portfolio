@@ -22,3 +22,22 @@
   vertical-align: middle;
   pointer-events: none;
 }
+
+/* Ensure full height and disable scroll/touch interference */
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;         /* Prevent scrolling */
+  touch-action: none;       /* Let A-Frame capture touch gestures */
+}
+
+/* Make sure the A-Frame scene takes full screen and accepts touch */
+a-scene {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none;       /* Critical for drag/rotate to work */
+}
