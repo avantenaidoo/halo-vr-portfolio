@@ -4,7 +4,6 @@
       <a-asset-item id="background-scene" src="/models/background1/background1.gltf"></a-asset-item>
     </a-assets>
 
-    <!-- Load 3D model after assets are ready -->
     <a-entity
       v-if="assetsLoaded"
       gltf-model="#background-scene"
@@ -13,12 +12,11 @@
       animation-mixer
     ></a-entity>
 
-    <!-- Camera rig with multitouch-look-controls for mobile and look-controls fallback -->
+    <!-- Camera with look-controls for mobile responsiveness -->
     <a-entity position="0 1.6 3">
-      <a-camera
-        multitouch-look-controls
-        look-controls="touchEnabled: true; mouseEnabled: true"
-      ></a-camera>
+      <a-camera look-controls="touchEnabled: true">
+        <a-cursor color="#00ffaa" raycaster="objects: [data-raycastable]"></a-cursor>
+      </a-camera>
     </a-entity>
   </a-scene>
 </template>
@@ -39,13 +37,3 @@ onMounted(() => {
   })
 })
 </script>
-
-<style scoped>
-/* Optional full-screen styling */
-a-scene {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-</style>
