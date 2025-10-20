@@ -1,0 +1,11 @@
+Model Information:
+* title:	Master Chief - Halo 2: Anniversary
+* source:	https://sketchfab.com/3d-models/master-chief-halo-2-anniversary-9c3735277b334f4a80aff2251481ce26
+* author:	sketchblab (https://sketchfab.com/sketchblab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Master Chief - Halo 2: Anniversary" (https://sketchfab.com/3d-models/master-chief-halo-2-anniversary-9c3735277b334f4a80aff2251481ce26) by sketchblab (https://sketchfab.com/sketchblab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
